@@ -2,11 +2,15 @@
 //
 
 #include "ddos_cross_platform.h"
+#include "functions.h"
+#include "functions_test.h"
 
 using namespace std;
 
 int main()
 {
-	cout << "Hello CMake." << endl;
+	Functions functions;
+	cout << functions.custom_multiply(2, 3) << endl;
+	cout << custom_sum(2, 3) << endl;
 	return 0;
 }

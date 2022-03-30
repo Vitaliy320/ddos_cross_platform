@@ -1,3 +1,7 @@
 # ninja log v5
-0	406	6702763289041416	ddos_cross_platform/CMakeFiles/ddos_cross_platform.dir/ddos_cross_platform.cpp.obj	c13bdca67b28ffe9
-406	639	6702763291286442	ddos_cross_platform/ddos_cross_platform.exe	ecb634c0905ed765
+5	169	6703741522841865	ddos_cross_platform/CMakeFiles/ddos_cross_platform.dir/functions.cpp.obj	2b69796339d9aab8
+0	170	6703741522831863	ddos_cross_platform/CMakeFiles/ddos_cross_platform.dir/functions_test.cpp.obj	d5f289f58e595c35
+3	304	6703741524196856	ddos_cross_platform/CMakeFiles/ddos_cross_platform.dir/ddos_cross_platform.cpp.obj	c13bdca67b28ffe9
+304	510	6703741526201871	ddos_cross_platform/ddos_cross_platform.exe	9a71f996eb0677b2
+1	361	6703741862925875	ddos_cross_platform/CMakeFiles/ddos_cross_platform.dir/ddos_cross_platform.cpp.obj	c13bdca67b28ffe9
+361	471	6703741863870860	ddos_cross_platform/ddos_cross_platform.exe	9a71f996eb0677b2

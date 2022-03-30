@@ -1,6 +1,7 @@
 #include <iostream>
 
 int main() {
-	std::cout << "Hello there!" << endl;
+	//string v = "V"
+	std::cout << "Hello there!" << std::endl;
 	return 0;
 }

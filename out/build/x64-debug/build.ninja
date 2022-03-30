@@ -84,6 +84,20 @@ build ddos_cross_platform\CMakeFiles\ddos_cross_platform.dir\ddos_cross_platform
   TARGET_COMPILE_PDB = ddos_cross_platform\CMakeFiles\ddos_cross_platform.dir\
   TARGET_PDB = ddos_cross_platform\ddos_cross_platform.pdb
 
+build ddos_cross_platform\CMakeFiles\ddos_cross_platform.dir\functions.cpp.obj: CXX_COMPILER__ddos_cross_platform_Debug D$:\Programming\C++\Projects\ddos_cross_platform\ddos_cross_platform\functions.cpp || cmake_object_order_depends_target_ddos_cross_platform
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = ddos_cross_platform\CMakeFiles\ddos_cross_platform.dir
+  OBJECT_FILE_DIR = ddos_cross_platform\CMakeFiles\ddos_cross_platform.dir
+  TARGET_COMPILE_PDB = ddos_cross_platform\CMakeFiles\ddos_cross_platform.dir\
+  TARGET_PDB = ddos_cross_platform\ddos_cross_platform.pdb
+
+build ddos_cross_platform\CMakeFiles\ddos_cross_platform.dir\functions_test.cpp.obj: CXX_COMPILER__ddos_cross_platform_Debug D$:\Programming\C++\Projects\ddos_cross_platform\ddos_cross_platform\functions_test.cpp || cmake_object_order_depends_target_ddos_cross_platform
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = ddos_cross_platform\CMakeFiles\ddos_cross_platform.dir
+  OBJECT_FILE_DIR = ddos_cross_platform\CMakeFiles\ddos_cross_platform.dir
+  TARGET_COMPILE_PDB = ddos_cross_platform\CMakeFiles\ddos_cross_platform.dir\
+  TARGET_PDB = ddos_cross_platform\ddos_cross_platform.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ddos_cross_platform
@@ -92,7 +106,7 @@ build ddos_cross_platform\CMakeFiles\ddos_cross_platform.dir\ddos_cross_platform
 #############################################
 # Link the executable ddos_cross_platform\ddos_cross_platform.exe
 
-build ddos_cross_platform\ddos_cross_platform.exe: CXX_EXECUTABLE_LINKER__ddos_cross_platform_Debug ddos_cross_platform\CMakeFiles\ddos_cross_platform.dir\ddos_cross_platform.cpp.obj
+build ddos_cross_platform\ddos_cross_platform.exe: CXX_EXECUTABLE_LINKER__ddos_cross_platform_Debug ddos_cross_platform\CMakeFiles\ddos_cross_platform.dir\ddos_cross_platform.cpp.obj ddos_cross_platform\CMakeFiles\ddos_cross_platform.dir\functions.cpp.obj ddos_cross_platform\CMakeFiles\ddos_cross_platform.dir\functions_test.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
