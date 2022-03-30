@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/Programming/C++/Projects/ddos_cross_platform/out/build/x64-debug/ddos_cross_platform/CMakeFiles/ddos_cross_platform.dir/embed.manifest"
