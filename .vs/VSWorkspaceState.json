@@ -1,7 +1,16 @@
 {
+  "ActiveTargetSystem": "Local Machine",
+  "MRUPresetsPerTargetSystem": {
+    "Local Machine": {
+      "configure": "x64-debug"
+    },
+    "159.223.23.27": {
+      "configure": "linux-debug"
+    }
+  },
   "ExpandedNodes": [
     ""
   ],
-  "SelectedNode": "\\D:\\Programming\\C++\\Projects\\ddos_cross_platform\\CMakeLists.txt\\ddos_cross_platform.exe (ddos_cross_platform\\ddos_cross_platform.exe)\\functions_test.cpp",
+  "SelectedNode": "\\D:\\Programming\\C++\\Projects\\ddos_cross_platform\\CMakeLists.txt\\ddos_cross_platform.exe (ddos_cross_platform\\ddos_cross_platform.exe)",
   "PreviewInSolutionExplorer": false
 }

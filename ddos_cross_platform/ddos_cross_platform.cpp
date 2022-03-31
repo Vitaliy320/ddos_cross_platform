@@ -12,5 +12,9 @@ int main()
 	Functions functions;
 	cout << functions.custom_multiply(2, 3) << endl;
 	cout << custom_sum(2, 3) << endl;
+	string input_message;
+	cin >> input_message;
+	cout << input_message << endl;
+	cin >> input_message;
 	return 0;
 }
