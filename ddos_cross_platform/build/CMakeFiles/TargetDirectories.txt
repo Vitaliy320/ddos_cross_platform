@@ -1,0 +1,3 @@
+D:/Programming/C++/Projects/ddos_cross_platform/ddos_cross_platform/build/CMakeFiles/ddos_cross_platform.dir
+D:/Programming/C++/Projects/ddos_cross_platform/ddos_cross_platform/build/CMakeFiles/ALL_BUILD.dir
+D:/Programming/C++/Projects/ddos_cross_platform/ddos_cross_platform/build/CMakeFiles/ZERO_CHECK.dir

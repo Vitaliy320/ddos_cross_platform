@@ -1,0 +1,23 @@
+# CMake generation dependency list for this directory.
+D:/Programming/C++/CMake/cmake-3.23.0-rc5-windows-x86_64/share/cmake-3.23/Modules/CMakeCInformation.cmake
+D:/Programming/C++/CMake/cmake-3.23.0-rc5-windows-x86_64/share/cmake-3.23/Modules/CMakeCXXInformation.cmake
+D:/Programming/C++/CMake/cmake-3.23.0-rc5-windows-x86_64/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake
+D:/Programming/C++/CMake/cmake-3.23.0-rc5-windows-x86_64/share/cmake-3.23/Modules/CMakeGenericSystem.cmake
+D:/Programming/C++/CMake/cmake-3.23.0-rc5-windows-x86_64/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake
+D:/Programming/C++/CMake/cmake-3.23.0-rc5-windows-x86_64/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake
+D:/Programming/C++/CMake/cmake-3.23.0-rc5-windows-x86_64/share/cmake-3.23/Modules/CMakeRCInformation.cmake
+D:/Programming/C++/CMake/cmake-3.23.0-rc5-windows-x86_64/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake
+D:/Programming/C++/CMake/cmake-3.23.0-rc5-windows-x86_64/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Programming/C++/CMake/cmake-3.23.0-rc5-windows-x86_64/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/Programming/C++/CMake/cmake-3.23.0-rc5-windows-x86_64/share/cmake-3.23/Modules/Compiler/MSVC-C.cmake
+D:/Programming/C++/CMake/cmake-3.23.0-rc5-windows-x86_64/share/cmake-3.23/Modules/Compiler/MSVC-CXX.cmake
+D:/Programming/C++/CMake/cmake-3.23.0-rc5-windows-x86_64/share/cmake-3.23/Modules/Platform/Windows-MSVC-C.cmake
+D:/Programming/C++/CMake/cmake-3.23.0-rc5-windows-x86_64/share/cmake-3.23/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/Programming/C++/CMake/cmake-3.23.0-rc5-windows-x86_64/share/cmake-3.23/Modules/Platform/Windows-MSVC.cmake
+D:/Programming/C++/CMake/cmake-3.23.0-rc5-windows-x86_64/share/cmake-3.23/Modules/Platform/Windows.cmake
+D:/Programming/C++/CMake/cmake-3.23.0-rc5-windows-x86_64/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake
+D:/Programming/C++/Projects/ddos_cross_platform/ddos_cross_platform/CMakeLists.txt
+D:/Programming/C++/Projects/ddos_cross_platform/ddos_cross_platform/build/CMakeFiles/3.23.0-rc5/CMakeCCompiler.cmake
+D:/Programming/C++/Projects/ddos_cross_platform/ddos_cross_platform/build/CMakeFiles/3.23.0-rc5/CMakeCXXCompiler.cmake
+D:/Programming/C++/Projects/ddos_cross_platform/ddos_cross_platform/build/CMakeFiles/3.23.0-rc5/CMakeRCCompiler.cmake
+D:/Programming/C++/Projects/ddos_cross_platform/ddos_cross_platform/build/CMakeFiles/3.23.0-rc5/CMakeSystem.cmake

@@ -1,0 +1,5 @@
+# ninja log v5
+4	58	6704158601925953	ddos_cross_platform/CMakeFiles/ddos_cross_platform.dir/functions_test.cpp.obj	dd1d0b9de7f1a7a8
+0	59	6704158601925953	ddos_cross_platform/CMakeFiles/ddos_cross_platform.dir/functions.cpp.obj	9b1658e686c9add4
+10	477	6704158606101115	ddos_cross_platform/CMakeFiles/ddos_cross_platform.dir/ddos_cross_platform.cpp.obj	e4cd059cf1f50c12
+477	637	6704158607680962	ddos_cross_platform/ddos_cross_platform.exe	350e190b937afa48

@@ -10,11 +10,10 @@ using namespace std;
 int main()
 {
 	Functions functions;
-	cout << functions.custom_multiply(2, 3) << endl;
-	cout << custom_sum(2, 3) << endl;
+	/*cout << functions.custom_multiply(2, 3) << endl;
+	cout << custom_sum(2, 3) << endl;*/
 	string input_message;
-	cin >> input_message;
-	cout << input_message << endl;
+	cout << "Hello there!" << endl;
 	cin >> input_message;
 	return 0;
 }
