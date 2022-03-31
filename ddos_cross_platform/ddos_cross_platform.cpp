@@ -7,25 +7,13 @@
 
 using namespace std;
 
-string removeSpaces(string str) {
-	str.erase(remove(str.begin(), str.end(), ' '), str.end());
-	return str;
+string removeSpaces(string input_message) {
+	input_message.erase(remove(input_message.begin(), input_message.end(), ' '), input_message.end());
+	return input_message;
 }
 
 int main()
 {
-	Functions functions;
-	/*cout << functions.custom_multiply(2, 3) << endl;
-	cout << custom_sum(2, 3) << endl;*/
-	string input_message;
-	cout << "Hello there!" << endl;
-	getline(cin, input_message);
-	input_message = removeSpaces(input_message);
-	
-	if (input_message == "GeneralKenobi" || input_message == "GeneralKenobi!") {
-		cout << "You are a bold one" << endl;
-		getline(cin, input_message);
-	}
-	
+	system("mkdir test");
 	return 0;
 }
