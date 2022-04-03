@@ -7,3 +7,6 @@ project ("ddos_cross_platform")
 
 # Include sub-projects.
 add_subdirectory ("ddos_cross_platform")
+
+set_property (TARGET ddos_cross_platform PROPERTY CXX_STANDARD 20)
+
