@@ -21,7 +21,7 @@ string readFromFile(string path) {
 	fs::path currentDirectory = fs::current_path();
 	string currentLine;
 
-	string toFile = currentDirectory.string() + "\\ddos_cross_platform\\build\\" + path;
+	string toFile = currentDirectory.string() + "//ddos_cross_platform//build//" + path;
 	ifstream inputFile;
 	inputFile.open(toFile);
 	while (getline(inputFile, currentLine)) {
