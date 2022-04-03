@@ -5,7 +5,7 @@
 #include "functions.h"
 #include "functions_test.h"
 #include <filesystem>
-#include <direct.h>
+#include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -18,7 +18,6 @@ namespace fs = std::filesystem;
 //}
 
 string readFromFile(string path) {
-	int t = _chdir("../build");
 	fs::path currentDirectory = fs::current_path();
 	string currentLine;
 
@@ -79,7 +78,6 @@ int main()
 	//}
 	//system("mkdir test");
 	//cout << "Current path is " << std::filesystem::current_path() << '\n';
-	int new_directory = _chdir("..");
 	//cout << "Current path is " << std::filesystem::current_path() << '\n';
 	/*string user_input;
 	cin >> user_input;
