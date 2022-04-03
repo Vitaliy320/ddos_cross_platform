@@ -17,11 +17,33 @@ namespace fs = std::filesystem;
 //	return input_message;
 //}
 
-string readFromFile(string path) {
+
+std::string getOsName()
+{
+    #ifdef _WIN32
+    return "Windows 32-bit";
+    #elif _WIN64
+    return "Windows 64-bit";
+    #elif __linux__
+    return "Linux";
+    #elif __FreeBSD__
+    return "FreeBSD";
+    #elif __unix || __unix__
+    return "Unix";
+    #else
+    return "Other";
+    #endif
+}
+
+
+string readFromFile(string path, string message) {
+	cout << message << endl;
 	fs::path currentDirectory = fs::current_path();
 	string currentLine;
 
-	string toFile = currentDirectory.string() + "//ddos_cross_platform//build//" + path;
+	string toFile = currentDirectory.string() + "/build/" + path;
+	
+	cout << toFile << endl;
 	ifstream inputFile;
 	inputFile.open(toFile);
 	while (getline(inputFile, currentLine)) {
@@ -42,6 +64,7 @@ bool endsWith(string stringToCheck, string subString) {
 
 void navigate_to_targets() {
 	fs::path currentDirectory = fs::current_path();
+	cout << currentDirectory.string() << endl;
 	string fileName = "targets.txt";
 	ifstream file;
 	file.open(fileName);
@@ -49,7 +72,7 @@ void navigate_to_targets() {
 
 	while (folderFound == false) {
 		if (file.good()) {
-			readFromFile(currentDirectory.string() + "targets.txt");
+			readFromFile(currentDirectory.string() + "/targets.txt", "first call");
 			folderFound = true;
 		}
 
@@ -58,13 +81,14 @@ void navigate_to_targets() {
 
 		if (endsWith(currentDirectory.string(), "ddos_cross_platform") == true) {
 			folderFound = true;
-			readFromFile(fileName);
+			readFromFile(fileName, "second call");
 		}
 	};
 }
 
 int main()
 {
+	cout << getOsName() << endl;
 	navigate_to_targets();
 	string _solutiondir = R"($(SolutionDir))";
 	const char* path = "./ddos_cross_platform/ddos_cross_platform";
